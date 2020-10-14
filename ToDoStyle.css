@@ -1,0 +1,105 @@
+body {
+    background: rgb(106, 165, 152);
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: "Alfa Slab One", Arial, Helvetica;
+    text-shadow: rgb(65, 94, 94) 3px 3px;
+}
+
+/* Directions */
+h2 {
+    font-size: 23px;
+    
+}
+
+#one {
+    color: rgb(207, 78, 78);
+}
+
+#two {
+    color: rgb(40, 109, 199);
+}
+
+#three {
+    color:rgb(6, 88, 68);
+}
+
+.container {
+    width: 575px;
+    text-align:left;
+    margin: auto;
+}
+
+.toDos {
+    background-color:white;
+    border-radius:5px;
+    padding: 30px;
+    box-shadow: rgb(65, 94, 94) 3px 3px;
+}
+
+
+#userInput {
+    width: 495px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 5px;
+    margin-right: 7px;
+    padding-left: 8px;
+    
+}
+
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color:rgb(219, 150, 150);
+}
+
+#addToDo:hover {
+    background-color:rgb(197, 99, 99);
+    cursor:pointer;
+    transition-duration:.3s;
+}
+
+.toDos {
+    margin-top: 25px;
+}
+
+p {
+    border: 2px solid rgb(107, 146, 138);
+    height: 46px;
+    width: 500px;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: left;
+    padding-top:14px;
+    padding-left: 8px;
+    background-color:rgb(162, 204, 193);
+    color: rgb(43, 45, 51);
+}
+
+p:hover {
+    background-color: rgb(125, 176, 196);
+    cursor:pointer;
+    color:black;
+    transition-duration:.8s;
+    border: 2px solid rgb(44, 46, 49);
+}
+
+
+
+
